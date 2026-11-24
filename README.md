@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/Nghyuu/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162-entry/rank.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 [![reward](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/Nghyuu/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162-entry/reward.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 
-A one-line joke about office life ("Sitting Standup") written to /output/entry.txt by a small Node program. The program copies entry.txt next to the script into the make.fun output directory.
+A one-line office joke about meetings that breed more meetings. The program copies the joke from entry.txt to the output directory.
 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/tmp/office-joke-output ~/workspace/makefun/node22/node-v22.23.5-linux-x64/bin/node --experimental-strip-types main.ts
+MAKEFUN_OUTPUT_DIR=./output ~/workspace/makefun/node22/node-v22.23.5-linux-x64/bin/node main.ts
 ```
 
 ---
